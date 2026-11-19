@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Drzwi wewnętrzne i zewnętrzne Częstochowa - salon DAN-POL, drzwi DANA</title>
+<meta name="description" content="Salon drzwi DAN-POL w Częstochowie: austriackie drzwi wewnętrzne DANA na zamówienie, drzwi zewnętrzne Wikęd, drzwi loftowe, klamki. Doradztwo i montaż.">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-1200.webp" imagesrcset="img/hero-600.webp 600w, img/hero-900.webp 900w, img/hero-1200.webp 1200w" imagesizes="100vw" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/barlow-condensed-latin-700.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/manrope-rdzen.woff2" crossorigin>
+<style>
+@font-face{font-family:BC;src:url(fonts/barlow-condensed-latin-700.woff2) format("woff2");font-weight:700;font-display:swap;unicode-range:U+0000-00FF,U+2013-2014,U+2018-201E,U+2022,U+2026}
+@font-face{font-family:BC;src:url(fonts/barlow-condensed-pl-700.woff2) format("woff2");font-weight:700;font-display:swap;unicode-range:U+0100-024F}
+@font-face{font-family:Manrope;font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B2,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:Manrope;font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--red:#D2232A;--red-d:#B01B21;--ink:#231F20;--txt:#3A3638;--mut:#6B6769;--grey:#EEF0F2;--line:#D9DCE0;--dark:#1D1B1C;--w:1360px;--g:clamp(16px,4vw,48px)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px;-webkit-text-size-adjust:100%}
+body{margin:0;background:#fff;color:var(--txt);font:400 17px/1.6 Manrope,Arial,sans-serif;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-family:BC,"Arial Narrow",Arial,sans-serif;font-weight:700;color:var(--ink);line-height:1.04;margin:0;letter-spacing:.005em}
+h2{font-size:clamp(34px,4.4vw,56px)}
+h3{font-size:24px}
+p{margin:0 0 14px}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 var(--g)}
+.sec{padding:clamp(64px,8vw,112px) 0}
+.lead{font-size:clamp(17px,1.5vw,19px);color:var(--mut);max-width:640px}
+.head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:16px 40px;margin-bottom:clamp(28px,4vw,48px)}
+.head h2{max-width:720px}
+.head .lead{margin:0}
+/* przycisk: jeden bok skośny jak uchylone skrzydło */
+.btn{display:inline-flex;align-items:center;gap:12px;min-height:54px;padding:0 34px 0 26px;background:var(--red);color:#fff;font:700 16px/1 Manrope,Arial,sans-serif;text-decoration:none;border:0;cursor:pointer;clip-path:polygon(0 0,100% 0,calc(100% - 12px) 100%,0 100%);transition:background .2s}
+.btn:hover{background:var(--red-d)}
+.btn.w{background:#fff;color:var(--red)}
+.btn.w:hover{background:var(--ink);color:#fff}
+.btn svg{width:18px;height:18px}
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:72px;max-width:1840px}
+.logo{display:flex;align-items:center;text-decoration:none}
+.logo svg{height:42px;width:auto}
+.nav{display:flex;align-items:center;gap:clamp(14px,1.6vw,28px)}
+.nav a{text-decoration:none;font-weight:600;font-size:15px;color:var(--ink);padding:8px 0;position:relative}
+.nav a:hover{color:var(--red)}
+.nav a.on::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--red)}
+.nav .tel{font-weight:800;color:var(--red);padding-left:clamp(14px,1.6vw,28px);border-left:1px solid var(--line)}
+.burger{display:none;background:none;border:0;width:48px;height:48px;padding:12px;cursor:pointer;color:var(--ink)}
+.burger span{display:block;height:2px;background:currentColor;margin:6px 0;transition:transform .25s,opacity .2s}
+@media (max-width:1180px){
+ .burger{display:block}
+ .nav{position:fixed;inset:72px 0 auto 0;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:8px var(--g) 24px;border-bottom:3px solid var(--red);box-shadow:0 20px 40px rgba(0,0,0,.12);transform:translateY(-8px);opacity:0;visibility:hidden;transition:.25s}
+ .nav a{padding:14px 0;font-size:18px;border-bottom:1px solid var(--grey)}
+ .nav a.on{color:var(--red)}
+ .nav a.on::after{display:none}
+ .nav .tel{border:0;padding:18px 0 0;font-size:20px}
+ .open .nav{transform:none;opacity:1;visibility:visible}
+ .open .burger span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+ .open .burger span:nth-child(2){opacity:0}
+ .open .burger span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+}
+/* hero: zdjecie na cala szerokosc + czerwone skrzydlo z tekstem */
+.hero{position:relative;min-height:calc(100svh - 72px);display:flex;background:var(--grey);overflow:hidden}
+.hero>picture img{position:absolute;top:0;left:0;bottom:0;width:calc(100% - min(46vw,760px) + clamp(40px,5vw,90px));height:100%;object-fit:cover;object-position:45% 50%}
+.leaf{position:relative;margin-left:auto;width:min(46vw,760px);background:var(--red);color:#fff;display:flex;flex-direction:column;justify-content:center;padding:clamp(40px,5vw,80px) clamp(28px,4vw,72px) clamp(40px,5vw,80px) clamp(72px,7vw,130px);clip-path:polygon(clamp(40px,5vw,90px) 0,100% 0,100% 100%,0 100%)}
+.leaf h1{color:#fff;font-size:clamp(40px,4.6vw,76px);margin-bottom:22px}
+.leaf p{font-size:clamp(17px,1.35vw,20px);line-height:1.55;max-width:520px;margin:0 0 30px;color:#fff}
+.leaf .meta{margin:28px 0 0;font-size:15px;line-height:1.7;opacity:.92}
+.leaf .meta a{font-weight:800;text-decoration:none;white-space:nowrap}
+@media (max-width:900px){
+ .hero{flex-direction:column;min-height:0}
+ .hero>picture img{position:relative;width:100%;height:clamp(220px,36svh,420px);object-position:40% 50%}
+ .leaf{width:auto;margin:-44px 0 0;padding:64px var(--g) 40px;clip-path:polygon(0 44px,100% 0,100% 100%,0 100%)}
+ .leaf h1{font-size:clamp(36px,10vw,52px);margin-bottom:16px}
+ .leaf p{margin-bottom:26px}
+ .leaf .meta{margin-top:24px;font-size:14px}
+}
+/* separator z uchylonym skrzydlem */
+.sep{display:flex;align-items:center;gap:14px;margin:0 0 22px;color:var(--red)}
+.sep::before{content:"";width:48px;height:2px;background:currentColor}
+/* kategorie */
+.cats{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(14px,2vw,28px)}
+.cat{text-decoration:none;display:block}
+.cat .ph{position:relative;aspect-ratio:715/505;background:var(--grey);overflow:hidden}
+.cat .ph img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+/* oscieznica: rama bez dolnej belki */
+.cat .ph::after{content:"";position:absolute;inset:10px 10px 0;border:2px solid rgba(255,255,255,.85);border-bottom:0;transition:border-color .25s,inset .25s;pointer-events:none}
+.cat:hover .ph::after{border-color:var(--red);inset:0 0 0;border-width:5px;border-bottom:0}
+.cat:hover img{transform:scale(1.03)}
+.cat h3{margin:16px 0 4px;font-size:26px}
+.cat p{margin:0;color:var(--mut);font-size:15px;line-height:1.5}
+@media (max-width:980px){.cats{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:420px){.cat h3{font-size:22px;margin-top:12px}.cat p{font-size:14px}}
+/* sekcja ciemna - kolekcja */
+.dark{background:var(--dark);color:#C9C6C7}
+.dark h2,.dark h3{color:#fff}
+.dark .lead{color:#AFAAAC}
+.strip-wrap{max-width:1840px;margin:0 auto;padding:0 clamp(16px,3vw,56px);position:relative}
+.strip{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 3*24px)/4);gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;cursor:grab;overscroll-behavior-x:contain}
+.strip::-webkit-scrollbar{display:none}
+.strip.drag{cursor:grabbing;scroll-snap-type:none}
+.strip figure{margin:0;scroll-snap-align:start}
+.strip button.im{display:block;width:100%;padding:0;border:0;background:#2a2829;cursor:zoom-in;aspect-ratio:3/2;overflow:hidden}
+.strip button.im img{width:100%;height:100%;object-fit:cover;pointer-events:none;-webkit-user-drag:none}
+.strip figcaption{padding:14px 0 0}
+.strip figcaption b{display:block;font:700 26px/1.1 BC,"Arial Narrow",sans-serif;color:#fff;margin-bottom:4px}
+.strip figcaption span{font-size:15px;line-height:1.5}
+@media (max-width:1700px){.strip{grid-auto-columns:calc((100% - 2*24px)/3)}}
+@media (max-width:1100px){.strip{grid-auto-columns:calc((100% - 24px)/1.6)}}
+@media (max-width:640px){.strip{grid-auto-columns:84%;gap:14px}}
+.arrows{display:flex;gap:8px}
+.arrows button{width:52px;height:52px;border:1px solid currentColor;background:transparent;color:inherit;cursor:pointer;display:grid;place-items:center;transition:.2s}
+.arrows button:hover:not(:disabled){background:var(--red);border-color:var(--red);color:#fff}
+.arrows button:disabled{opacity:.3;cursor:default}
+.arrows svg{width:20px;height:20px}
+.dark .arrows{color:#fff}
+.note{font-size:14px;color:var(--mut);margin-top:22px}
+.dark .note{color:#8F8A8C}
+/* loft */
+.loft{display:grid;grid-template-columns:4fr 7fr;gap:clamp(28px,5vw,80px);align-items:center}
+.loft .ims{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(10px,1.4vw,18px)}
+.loft .ims button{padding:0;border:0;background:#F4F5F6;cursor:zoom-in;aspect-ratio:1/1.35;overflow:hidden}
+.loft .ims img{width:100%;height:100%;object-fit:cover;object-position:50% 45%}
+.list{list-style:none;padding:0;margin:20px 0 0}
+.list li{padding:12px 0 12px 30px;border-top:1px solid var(--line);position:relative}
+.list li::before{content:"";position:absolute;left:0;top:19px;width:12px;height:12px;border:2px solid var(--red);border-bottom:0}
+@media (max-width:900px){.loft{grid-template-columns:1fr}}
+/* szczegol */
+.grey{background:var(--grey)}
+.det{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(28px,5vw,80px);align-items:center}
+.det .ph{background:#fff;padding:clamp(18px,3vw,40px);max-width:440px;justify-self:center}
+@media (max-width:900px){.det .ph{max-width:300px}}
+.det .ph img{width:100%;mix-blend-mode:multiply}
+.cat-list{display:grid;gap:0;margin-top:26px}
+.cat-list a{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:16px 0;border-top:1px solid var(--line);text-decoration:none;font-weight:700;color:var(--ink)}
+.cat-list a:last-child{border-bottom:1px solid var(--line)}
+.cat-list a small{font-weight:500;color:var(--mut);font-size:14px;white-space:nowrap}
+.cat-list a:hover{color:var(--red)}
+@media (max-width:900px){.det{grid-template-columns:1fr}}
+/* o nas */
+.about{display:grid;grid-template-columns:6fr 5fr;gap:clamp(28px,5vw,80px);align-items:start}
+.about figure{margin:0}
+.about figure img{width:100%;aspect-ratio:2/1;object-fit:cover}
+.about figcaption{font-size:14px;color:var(--mut);margin-top:10px}
+.facts{margin:26px 0 0;display:grid;grid-template-columns:repeat(2,1fr);gap:0 32px}
+.facts div{padding:16px 0;border-top:2px solid var(--ink)}
+.facts b{display:block;font:700 30px/1.05 BC,"Arial Narrow",sans-serif;color:var(--red);margin-bottom:4px}
+.facts span{font-size:15px;color:var(--mut);line-height:1.45;display:block}
+@media (max-width:900px){.about{grid-template-columns:1fr}}
+/* wiked pas */
+.band{position:relative;min-height:clamp(420px,46vw,620px);display:flex;align-items:flex-end;color:#fff;overflow:hidden}
+.band>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 60%}
+.band .box{position:relative;background:var(--ink);padding:clamp(28px,3.4vw,52px);max-width:600px;margin:0 0 0 max(var(--g),calc((100vw - var(--w))/2 + var(--g)));clip-path:polygon(0 0,100% 0,calc(100% - 26px) 100%,0 100%)}
+.band h2{color:#fff;font-size:clamp(32px,3.6vw,48px);margin-bottom:14px}
+.band p{color:#D6D3D4}
+@media (max-width:700px){.band{display:block;min-height:0}.band>img{position:relative;height:300px}.band .box{margin:0;max-width:none;clip-path:none;padding:32px var(--g) 40px}}
+/* inwestycje */
+.inv-strip .strip{grid-auto-columns:calc((100% - 3*24px)/4)}
+.inv-strip .strip button.im{aspect-ratio:786/337;background:#ddd}
+.inv-strip figcaption{font-size:15px;color:var(--mut)}
+@media (max-width:1100px){.inv-strip .strip{grid-auto-columns:calc((100% - 24px)/2.2)}}
+@media (max-width:640px){.inv-strip .strip{grid-auto-columns:86%}}
+.tags{display:flex;flex-wrap:wrap;gap:10px 28px;margin:4px 0 30px;padding:0;list-style:none;font-weight:700;color:var(--ink)}
+.tags li{display:flex;align-items:center;gap:10px}
+.tags li::before{content:"";width:10px;height:14px;border:2px solid var(--red);border-bottom:0}
+/* kontakt */
+.contact{display:grid;grid-template-columns:5fr 6fr;gap:clamp(28px,5vw,80px)}
+.addr{font-size:17px}
+.addr h3{margin:0 0 10px}
+.addr .big{font:700 clamp(30px,3vw,40px)/1.1 BC,"Arial Narrow",sans-serif;color:var(--red);text-decoration:none;display:inline-block;margin:6px 0}
+.hours{display:grid;grid-template-columns:auto 1fr;gap:4px 18px;margin:18px 0 26px}
+.reps{display:grid;grid-template-columns:1fr 1fr;gap:18px 28px;margin-top:22px;font-size:15px;line-height:1.5}
+.reps b{color:var(--ink);display:block}
+.reps a{text-decoration:none;font-weight:700}
+.reps a:hover{color:var(--red)}
+form{background:var(--grey);padding:clamp(22px,3vw,40px)}
+form h3{margin-bottom:18px}
+.f2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{display:block;font-size:14px;font-weight:700;color:var(--ink);margin:0 0 14px}
+input,select,textarea{display:block;width:100%;margin-top:6px;padding:13px 14px;border:1px solid #C9CDD2;background:#fff;font:400 16px/1.4 Manrope,Arial,sans-serif;color:var(--ink);border-radius:0}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--red);outline-offset:0;border-color:var(--red)}
+textarea{min-height:110px;resize:vertical}
+.chk{display:flex;gap:10px;align-items:flex-start;font-weight:500;font-size:13px;color:var(--mut)}
+.chk input{width:18px;height:18px;margin:2px 0 0;flex:none}
+.ok{display:none;margin:14px 0 0;font-weight:700;color:var(--ink)}
+.map{margin-top:clamp(40px,5vw,64px);height:clamp(300px,34vw,440px);background:var(--grey);position:relative}
+.map iframe{width:100%;height:100%;border:0;display:block;filter:grayscale(.25)}
+.map .ph{position:absolute;inset:0;display:grid;place-items:center;color:var(--mut);font-size:15px}
+@media (max-width:900px){.contact{grid-template-columns:1fr}}
+@media (max-width:520px){.f2{grid-template-columns:1fr;gap:0}.reps{grid-template-columns:1fr 1fr;gap:16px}}
+/* stopka */
+.foot{background:var(--dark);color:#AFAAAC;padding:56px 0 28px;font-size:15px}
+.foot .cols{display:grid;grid-template-columns:2fr 1fr 1fr 1.4fr;gap:28px}
+.foot b{color:#fff;display:block;margin-bottom:10px;font-size:15px}
+.foot a{text-decoration:none}
+.foot a:hover{color:#fff}
+.foot ul{list-style:none;margin:0;padding:0;line-height:2}
+.foot .logo svg{height:38px}
+.foot .bottom a{white-space:nowrap}
+.foot .bottom{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;margin-top:40px;padding-top:22px;border-top:1px solid #3A3738;font-size:14px}
+@media (max-width:900px){.foot .cols{grid-template-columns:1fr 1fr}.foot .cols>div:first-child{grid-column:1/-1}}
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(18,17,17,.94);display:none;align-items:center;justify-content:center;padding:56px 12px}
+.lb.on{display:flex}
+.lb img{max-width:min(1400px,100%);max-height:100%;object-fit:contain}
+.lb button{position:absolute;background:none;border:0;color:#fff;cursor:pointer;width:56px;height:56px;display:grid;place-items:center}
+.lb button svg{width:26px;height:26px}
+.lb .x{top:6px;right:6px}.lb .pv{left:6px;top:50%;margin-top:-28px}.lb .nx{right:6px;top:50%;margin-top:-28px}
+.lb .cap{position:absolute;bottom:14px;left:0;right:0;text-align:center;color:#ddd;font-size:14px}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+<style>
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <defs>
+  <symbol id="znak" viewBox="0 0 64 64"><rect width="64" height="64" rx="13" fill="#D2232A"/><rect x="21.5" y="11.5" width="25" height="42" fill="none" stroke="#fff" stroke-width="3"/><path d="M12.5 7.5 L35 12.5 V52.5 L12.5 57.5 Z" fill="#D2232A" stroke="#fff" stroke-width="3" stroke-linejoin="round"/><path d="M17 31 v5" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></symbol>
+  <symbol id="arrR" viewBox="0 0 20 20"><path d="M7 3l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="arrL" viewBox="0 0 20 20"><path d="M13 3l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+ </defs>
+</svg>
+
+<header class="top" id="top">
+ <div class="wrap">
+  <a class="logo" href="#" aria-label="DAN-POL - strona główna">
+   <svg viewBox="0 0 292 64" role="img" aria-hidden="true"><use href="#znak" width="64" height="64"/><text x="78" y="50" font-family="BC,'Arial Narrow',Arial,sans-serif" font-weight="700" font-size="52" letter-spacing="4" fill="#231F20">DAN<tspan fill="#231F20">·</tspan><tspan fill="#D2232A">POL</tspan></text></svg>
+  </a>
+  <nav class="nav" id="nav" aria-label="Menu">
+   <a href="#drzwi" class="on">Drzwi wewnętrzne DANA</a>
+   <a href="#zewnetrzne">Drzwi zewnętrzne</a>
+   <a href="#loft">Drzwi loftowe</a>
+   <a href="#katalogi">Katalogi</a>
+   <a href="#inwestycje">Dla inwestycji</a>
+   <a href="#o-nas">O nas</a>
+   <a href="#kontakt">Kontakt</a>
+   <a class="tel" href="tel:+48343252252">34 325 22 52</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+ </div>
+</header>
+
+<main>
+<section class="hero" aria-labelledby="h1">
+ <picture><img src="img/hero-1200.webp" srcset="img/hero-600.webp 600w, img/hero-900.webp 900w, img/hero-1200.webp 1200w" sizes="100vw" width="1200" height="800" alt="Dębowe drzwi wewnętrzne DANA Apart z pionowym uchwytem w jasnym wnętrzu" fetchpriority="high"></picture>
+ <div class="leaf">
+  <h1 id="h1">Drzwi wewnętrzne i zewnętrzne w Częstochowie</h1>
+  <p>Salon DAN-POL: austriackie drzwi DANA robione na zamówienie, drzwi zewnętrzne Wikęd i drzwi loftowe. Przyjdź zobaczyć je na żywo, doradzimy wybór i zamontujemy.</p>
+  <div><a class="btn w" href="#kontakt">Zapytaj o drzwi <svg><use href="#arrR"/></svg></a></div>
+  <p class="meta">ul. Brzeźnicka 46a, Częstochowa<br>pn-pt 9:00-17:30, sob 9:00-13:30, tel. <a href="tel:+48343252252">34 325 22 52</a></p>
+ </div>
+</section>
+
+<section class="sec" id="drzwi">
+ <div class="wrap">
+  <div class="head">
+   <h2>Jakich drzwi szukasz?</h2>
+   <p class="lead">Wszystkie drzwi DANA powstają na indywidualne zamówienie w fabryce w Austrii. W salonie zobaczysz je w różnych wykończeniach: lakierowane, fornirowane, laminowane i szklane.</p>
+  </div>
+  <div class="cats">
+   <a class="cat" href="#kolekcja"><div class="ph"><img src="img/k-no-600.webp" width="600" height="424" loading="lazy" alt="Białe drzwi nowoczesne DANA Meteor z pasem drewna"></div><h3>Nowoczesne</h3><p>Frezy, wstawki drewna i metalu, intarsje z forniru.</p></a>
+   <a class="cat" href="#kontakt"><div class="ph"><img src="img/k-kl-600.webp" width="600" height="424" loading="lazy" alt="Białe drzwi klasyczne DANA z kasetonami"></div><h3>Klasyczne</h3><p>Kasetony i ponadczasowe proporcje do każdego wnętrza.</p></a>
+   <a class="cat" href="#kontakt"><div class="ph"><img src="img/k-sz-600.webp" width="600" height="424" loading="lazy" alt="Szklane drzwi DANA z matowym wzorem"></div><h3>Szklane</h3><p>Bezpieczne szkło, wzory matowane i przejrzyste.</p></a>
+   <a class="cat" href="#kontakt"><div class="ph"><img src="img/k-pr-600.webp" width="600" height="424" loading="lazy" alt="Drzwi przesuwne DANA chowane w ścianę"></div><h3>Przesuwne</h3><p>Każde drzwi DANA, drewniane i szklane, także jako przesuwne.</p></a>
+   <a class="cat" href="#kontakt"><div class="ph"><img src="img/k-hs-600.webp" width="600" height="424" loading="lazy" alt="Białe drzwi laminowane Hobby i Sax"></div><h3>Hobby i Sax</h3><p>Laminowane, białe, w przystępnej cenie, austriacka jakość.</p></a>
+   <a class="cat" href="#loft"><div class="ph"><img src="img/k-li-600.webp" width="600" height="424" loading="lazy" alt="Drzwi loftowe w czarnej ramie ze szkłem we wnętrzu z cegłą"></div><h3>Loftowe</h3><p>Czarne profile i szkło, drzwi i ścianki działowe.</p></a>
+   <a class="cat" href="#loft"><div class="ph"><img src="img/k-lp-600.webp" width="600" height="424" loading="lazy" alt="Szklane drzwi loftowe przesuwne na szynie"></div><h3>Loftowe przesuwne</h3><p>Industrialny charakter i oszczędność miejsca.</p></a>
+   <a class="cat" href="#zewnetrzne"><div class="ph"><img src="img/k-ze-600.webp" width="600" height="424" loading="lazy" alt="Drzwi zewnętrzne Wikęd z drewnianą okładziną i przeszkleniem"></div><h3>Zewnętrzne</h3><p>Drzwi wejściowe Wikęd: stalowe, drewniane, aluminiowe.</p></a>
+  </div>
+ </div>
+</section>
+
+<section class="sec dark" id="kolekcja">
+ <div class="wrap">
+  <div class="head">
+   <div><h2>Kolekcja drzwi nowoczesnych DANA</h2></div>
+   <div class="arrows" data-for="s1"><button type="button" class="pv" aria-label="Poprzednie"><svg><use href="#arrL"/></svg></button><button type="button" class="nx" aria-label="Następne"><svg><use href="#arrR"/></svg></button></div>
+  </div>
+ </div>
+ <div class="strip-wrap">
+  <div class="strip" id="s1" data-lbg="kolekcja">
+   <figure><button class="im" type="button" data-full="img/m-apart-1200.webp" aria-label="Powiększ: Apart"><img src="img/m-apart-640.webp" width="640" height="427" loading="lazy" alt="Drzwi DANA Apart z intarsją forniru dębowego"></button><figcaption><b>Apart</b><span>Fornir układany w intarsję, lakierowany albo olejowany.</span></figcaption></figure>
+   <figure><button class="im" type="button" data-full="img/m-linus-1200.webp" aria-label="Powiększ: Linus"><img src="img/m-linus-640.webp" width="640" height="427" loading="lazy" alt="Białe drzwi DANA Linus z wąskim paskiem"></button><figcaption><b>Linus</b><span>Gładkie skrzydło z wąskim metalizowanym albo czarnym paskiem.</span></figcaption></figure>
+   <figure><button class="im" type="button" data-full="img/m-monolog-1200.webp" aria-label="Powiększ: Monolog"><img src="img/m-monolog-640.webp" width="640" height="427" loading="lazy" alt="Drzwi DANA Monolog z poprzecznymi słojami"></button><figcaption><b>Monolog</b><span>Najprostsza intarsja: słoje forniru ułożone poprzecznie.</span></figcaption></figure>
+   <figure><button class="im" type="button" data-full="img/m-kontura-1200.webp" aria-label="Powiększ: Kontura"><img src="img/m-kontura-640.webp" width="640" height="427" loading="lazy" alt="Białe drzwi DANA Kontura z wstawką drewna"></button><figcaption><b>Kontura</b><span>Lakierowane skrzydło z wstawką z drewna.</span></figcaption></figure>
+   <figure><button class="im" type="button" data-full="img/m-meteor-1200.webp" aria-label="Powiększ: Meteor"><img src="img/m-meteor-640.webp" width="640" height="427" loading="lazy" alt="Białe drzwi DANA Meteor z pasem drewna przy uchwycie"></button><figcaption><b>Meteor</b><span>Biel i pas naturalnego drewna przy krawędzi.</span></figcaption></figure>
+   <figure><button class="im" type="button" data-full="img/m-motiv-1200.webp" aria-label="Powiększ: Motiv"><img src="img/m-motiv-640.webp" width="640" height="427" loading="lazy" alt="Białe drzwi DANA Motiv z poziomymi frezami"></button><figcaption><b>Motiv</b><span>Ozdobne frezy na lakierowanym skrzydle.</span></figcaption></figure>
+   <figure><button class="im" type="button" data-full="img/m-modus-1200.webp" aria-label="Powiększ: Modus"><img src="img/m-modus-640.webp" width="640" height="427" loading="lazy" alt="Białe drzwi DANA Modus z paskami"></button><figcaption><b>Modus</b><span>Wstawki z metalizowanych, czarnych lub fornirowanych pasków.</span></figcaption></figure>
+   <figure><button class="im" type="button" data-full="img/m-struktura-1200.webp" aria-label="Powiększ: Struktura"><img src="img/m-struktura-640.webp" width="640" height="427" loading="lazy" alt="Ciemne fornirowane drzwi DANA Struktura"></button><figcaption><b>Struktura</b><span>Fornir z wyraźnym rysunkiem drewna, lakier albo olej.</span></figcaption></figure>
+   <figure><button class="im" type="button" data-full="img/m-charisma-1200.webp" aria-label="Powiększ: Charisma"><img src="img/m-charisma-640.webp" width="640" height="427" loading="lazy" alt="Dębowe drzwi DANA Charisma licujące ze ścianą"></button><figcaption><b>Charisma</b><span>Rozwiązanie niestandardowe, drzwi zlicowane ze ścianą.</span></figcaption></figure>
+  </div>
+ </div>
+ <div class="wrap"><p class="note">Drzwi z kolekcji nowoczesnej mają w standardzie podwyższoną izolacyjność akustyczną Rw = 32 dB.</p></div>
+</section>
+
+<section class="sec" id="loft">
+ <div class="wrap loft">
+  <div>
+   <h2>Drzwi loftowe i industrialne</h2>
+   <p class="lead" style="margin-top:18px">Cienkie czarne profile Loft Lite i Icon Loft, wypełnione szkłem albo stalą. Robimy z nich drzwi uchylne, przesuwne i ścianki działowe, a podziały szyb można ułożyć dowolnie.</p>
+   <ul class="list">
+    <li>Szkło przezroczyste, matowe, ryflowane, grafitowe, brązowe, czarne albo lustro</li>
+    <li>Profile Icon Loft projektowane i produkowane w Polsce</li>
+    <li>Kilka konfiguracji drzwi loftowych, także przesuwnych, zobaczysz w salonie</li>
+   </ul>
+  </div>
+  <div class="ims" data-lbg="loft">
+   <button type="button" data-full="img/loft1-1000.webp" aria-label="Powiększ drzwi loftowe 1"><img src="img/loft1-600.webp" width="600" height="600" loading="lazy" alt="Czarne drzwi loftowe z podziałem szyb w kratę"></button>
+   <button type="button" data-full="img/loft2-1000.webp" aria-label="Powiększ drzwi loftowe 2"><img src="img/loft2-600.webp" width="600" height="600" loading="lazy" alt="Drzwi loftowe ze szkłem i roślinami w tle"></button>
+   <button type="button" data-full="img/loft3-1000.webp" aria-label="Powiększ drzwi loftowe 3"><img src="img/loft3-600.webp" width="600" height="600" loading="lazy" alt="Drzwi loftowe z sześcioma polami szkła"></button>
+  </div>
+ </div>
+</section>
+
+<section class="sec grey" id="katalogi">
+ <div class="wrap det">
+  <div class="ph"><img src="img/klamka-600.webp" width="600" height="600" loading="lazy" alt="Stalowa klamka do drzwi szklanych"></div>
+  <div>
+   <h2>Szczegół jest ważny</h2>
+   <p class="lead" style="margin-top:18px">Do drzwi dobieramy klamki, zawiasy i uchwyty: klamki do drzwi szklanych, płaskie Flatfix, długie pochwyty. Pełną ofertę znajdziesz w katalogach.</p>
+   <div class="cat-list">
+    <a href="https://www.dan-pol.com.pl/danpol/wp-content/uploads/katalogi/DANA_24_ENG.pdf" target="_blank" rel="noopener">Drzwi DANA, katalog 2024 <small>PDF</small></a>
+    <a href="https://www.dan-pol.com.pl/danpol/wp-content/uploads/katalogi/DANA_handles_2025.pdf" target="_blank" rel="noopener">Klamki i uchwyty DANA 2025 <small>PDF</small></a>
+    <a href="https://www.drzwidana.pl/wp-content/uploads/2026/08/Informator-Produktowy-2026.pdf" target="_blank" rel="noopener">Drzwi obiektowe, informator 2026 <small>PDF</small></a>
+    <a href="https://www.dan-pol.com.pl/danpol/wp-content/uploads/katalogi/KATALOG_WIKED_2022.pdf" target="_blank" rel="noopener">Drzwi zewnętrzne Wikęd <small>PDF</small></a>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="band" id="zewnetrzne">
+ <img src="img/wiked-1400.webp" srcset="img/wiked-800.webp 800w, img/wiked-1400.webp 1400w" sizes="100vw" width="1400" height="933" loading="lazy" alt="Nowoczesne wejście do domu z drzwiami zewnętrznymi Wikęd">
+ <div class="box">
+  <h2>Drzwi zewnętrzne Wikęd</h2>
+  <p>Drzwi wejściowe od wiodącego polskiego producenta: stalowe, drewniane i aluminiowe, tradycyjne i nowoczesne, także na wymiar. Różne klasy izolacji cieplnej i akustycznej, z montażem.</p>
+  <a class="btn" href="#kontakt">Zapytaj o drzwi wejściowe <svg><use href="#arrR"/></svg></a>
+ </div>
+</section>
+
+<section class="sec" id="o-nas">
+ <div class="wrap about">
+  <div>
+   <h2>Firma rodzinna, która od 1998 roku sprowadza drzwi DANA</h2>
+   <p class="lead" style="margin-top:18px">DAN-POL jest generalnym dystrybutorem w Polsce drzwi DANA, marki największego austriackiego producenta drzwi JELD-WEN Austria. Zaufali nam klienci indywidualni i instytucje.</p>
+   <div class="facts">
+    <div><b>od 1998</b><span>generalny dystrybutor drzwi DANA w Polsce</span></div>
+    <div><b>na zamówienie</b><span>każde drzwi robione w fabryce DANA w Austrii</span></div>
+    <div><b>salon</b><span>drzwi drewniane i szklane do obejrzenia w Częstochowie</span></div>
+    <div><b>montaż</b><span>doradztwo, pomiar i montaż drzwi</span></div>
+   </div>
+  </div>
+  <figure>
+   <img src="img/fabryka-770.webp" width="770" height="385" loading="lazy" alt="Fabryka drzwi DANA w Austrii wśród gór">
+   <figcaption>Fabryka DANA w Austrii, w której powstają drzwi z naszej oferty.</figcaption>
+  </figure>
+ </div>
+</section>
+
+<section class="sec grey" id="inwestycje">
+ <div class="wrap">
+  <div class="head">
+   <div>
+    <h2>Drzwi do hoteli, szpitali i biur</h2>
+    <p class="lead" style="margin-top:16px">Dla inwestycji dostarczamy drzwi techniczne DANA z atestami do budynków użyteczności publicznej. Szczegóły na drzwidana.pl.</p>
+   </div>
+   <div class="arrows" data-for="s2"><button type="button" class="pv" aria-label="Poprzednie"><svg><use href="#arrL"/></svg></button><button type="button" class="nx" aria-label="Następne"><svg><use href="#arrR"/></svg></button></div>
+  </div>
+  <ul class="tags"><li>Laminat HPL</li><li>Akustyczne</li><li>Przeciwpożarowe EI30</li><li>Klasa 4 wytrzymałości</li><li>Ościeżnice drewniane i stalowe</li></ul>
+ </div>
+ <div class="strip-wrap inv-strip">
+  <div class="strip" id="s2" data-lbg="inwestycje">
+   <figure><button class="im" type="button" data-full="img/obj1-786.webp" aria-label="Powiększ: szpital"><img src="img/obj1-786.webp" width="786" height="337" loading="lazy" alt="Nowoczesny szpital nocą"></button><figcaption>Służba zdrowia</figcaption></figure>
+   <figure><button class="im" type="button" data-full="img/obj2-786.webp" aria-label="Powiększ: hotel"><img src="img/obj2-786.webp" width="786" height="337" loading="lazy" alt="Hotel z oświetloną elewacją"></button><figcaption>Hotele</figcaption></figure>
+   <figure><button class="im" type="button" data-full="img/obj3-786.webp" aria-label="Powiększ: przychodnia"><img src="img/obj3-786.webp" width="786" height="335" loading="lazy" alt="Budynek przychodni z czerwonym akcentem"></button><figcaption>Przychodnie</figcaption></figure>
+   <figure><button class="im" type="button" data-full="img/obj4-786.webp" aria-label="Powiększ: biurowiec"><img src="img/obj4-786.webp" width="786" height="335" loading="lazy" alt="Przeszklony biurowiec"></button><figcaption>Biura</figcaption></figure>
+   <figure><button class="im" type="button" data-full="img/obj5-786.webp" aria-label="Powiększ: hotel w górach"><img src="img/obj5-786.webp" width="786" height="337" loading="lazy" alt="Hotel w górach"></button><figcaption>Hotele</figcaption></figure>
+   <figure><button class="im" type="button" data-full="img/obj6-786.webp" aria-label="Powiększ: obiekt rekreacyjny"><img src="img/obj6-786.webp" width="786" height="337" loading="lazy" alt="Obiekt z przeszkloną fasadą"></button><figcaption>Obiekty publiczne</figcaption></figure>
+  </div>
+ </div>
+ <div class="wrap"><p class="note">Zdjęcia obiektów z drzwiami DANA z drzwidana.pl.</p></div>
+</section>
+
+<section class="sec" id="kontakt">
+ <div class="wrap contact">
+  <div class="addr">
+   <h2 style="margin-bottom:22px">Zapraszamy do salonu</h2>
+   <h3>Salon i centrala DAN-POL</h3>
+   <p style="margin:0">ul. Brzeźnicka 46a, 42-200 Częstochowa</p>
+   <a class="big" href="tel:+48343252252">34 325 22 52</a><br>
+   <a class="big" href="tel:+48721825050" style="font-size:clamp(24px,2.4vw,30px);color:var(--ink)">721 825 050</a>
+   <p style="margin:6px 0 0"><a href="mailto:centrala@dan-pol.com.pl" style="font-weight:700;text-decoration:none">centrala@dan-pol.com.pl</a></p>
+   <div class="hours"><span>pn-pt</span><b>9:00-17:30</b><span>sobota</span><b>9:00-13:30</b></div>
+   <h3>Przedstawiciele handlowi</h3>
+   <div class="reps">
+    <div><b>Śląsk, Łódzkie, Opolskie i inne</b><a href="tel:+48721825050">721 825 050</a></div>
+    <div><b>Kraków, Małopolska, Podkarpacie</b><a href="tel:+48502567197">502 56 71 97</a></div>
+    <div><b>Wrocław, Dolny Śląsk, Lubuskie</b>DRZWIWROC<br><a href="tel:+48601199927">601 19 99 27</a></div>
+    <div><b>Gdańsk i Elbląg</b><a href="tel:+48601440300">601 440 300</a></div>
+   </div>
+  </div>
+  <form id="form" novalidate>
+   <h3>Zapytaj o drzwi</h3>
+   <div class="f2">
+    <label>Imię i nazwisko<input name="n" autocomplete="name"></label>
+    <label>Telefon<input name="t" type="tel" autocomplete="tel"></label>
+   </div>
+   <label>E-mail<input name="e" type="email" autocomplete="email"></label>
+   <label>Czego szukasz?
+    <select name="r"><option>Drzwi wewnętrzne DANA</option><option>Drzwi loftowe</option><option>Drzwi zewnętrzne Wikęd</option><option>Drzwi do inwestycji / obiektu</option><option>Klamki i akcesoria</option></select>
+   </label>
+   <label>Wiadomość<textarea name="m" placeholder="Np. ile drzwi, wymiary, termin, czy z montażem"></textarea></label>
+   <label class="chk"><input type="checkbox" name="z"> Wyrażam zgodę na przetwarzanie moich danych w celu odpowiedzi na zapytanie.</label>
+   <button class="btn" type="submit">Wyślij zapytanie <svg><use href="#arrR"/></svg></button>
+   <p class="ok" id="ok">To podgląd strony, formularz zacznie wysyłać wiadomości na docelowej stronie.</p>
+  </form>
+ </div>
+ <div class="wrap"><div class="map" id="map"><div class="ph">Mapa dojazdu: ul. Brzeźnicka 46a, Częstochowa</div></div></div>
+</section>
+</main>
+
+<footer class="foot">
+ <div class="wrap">
+  <div class="cols">
+   <div>
+    <a class="logo" href="#" aria-label="DAN-POL"><svg viewBox="0 0 292 64" aria-hidden="true"><use href="#znak" width="64" height="64"/><text x="78" y="50" font-family="BC,'Arial Narrow',Arial,sans-serif" font-weight="700" font-size="52" letter-spacing="4" fill="#fff">DAN·<tspan fill="#E8454B">POL</tspan></text></svg></a>
+    <p style="margin:16px 0 0;max-width:340px">Generalny dystrybutor drzwi DANA w Polsce. Salon drzwi w Częstochowie od 1998 roku.</p>
+   </div>
+   <div><b>Oferta</b><ul><li><a href="#drzwi">Drzwi wewnętrzne</a></li><li><a href="#zewnetrzne">Drzwi zewnętrzne</a></li><li><a href="#loft">Drzwi loftowe</a></li><li><a href="#inwestycje">Dla inwestycji</a></li></ul></div>
+   <div><b>Firma</b><ul><li><a href="#o-nas">O nas</a></li><li><a href="#katalogi">Katalogi</a></li><li><a href="#kontakt">Kontakt</a></li><li><a href="#top">Polityka prywatności</a></li></ul></div>
+   <div><b>Salon</b><ul><li>ul. Brzeźnicka 46a</li><li>42-200 Częstochowa</li><li><a href="tel:+48343252252">34 325 22 52</a></li><li><a href="mailto:centrala@dan-pol.com.pl">centrala@dan-pol.com.pl</a></li></ul></div>
+  </div>
+  <div class="bottom">
+   <span>© 2026 P.P.U.H. DAN-POL</span>
+   <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=dan-pol.com.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+  </div>
+ </div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie">
+ <img alt="">
+ <button class="x" type="button" aria-label="Zamknij"><svg viewBox="0 0 20 20"><path d="M4 4l12 12M16 4L4 16" stroke="currentColor" stroke-width="2"/></svg></button>
+ <button class="pv" type="button" aria-label="Poprzednie"><svg><use href="#arrL"/></svg></button>
+ <button class="nx" type="button" aria-label="Następne"><svg><use href="#arrR"/></svg></button>
+ <div class="cap"></div>
+</div>
+<script src="app.js" defer></script>
+</body>
+</html>
